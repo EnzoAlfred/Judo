@@ -1,0 +1,222 @@
+body{
+    background-color: #d6eef8;
+}
+
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #d6eef8; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #85B6BD; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #d6eef8; /* creates padding around scroll thumb */
+}
+
+body::webkit-scrollbar-thumb:hover {
+  border: 3px solid #000000; /* creates padding around scroll thumb */
+}
+
+
+.menu{
+	display: flex;
+    padding: 0;
+    background-color: #85B6BD;
+    justify-content: space-between;
+   overflow-x: auto;
+}
+
+.menu li{
+    list-style-type: none;
+	border-right: 3px solid #000000;
+ margin-left: 0;
+}
+
+.menu a{
+     	display: block;
+     min-width: 120px;
+     margin: 0.5rem;
+     padding: 0.4rem 0;
+     text-align: center;
+     background-color: #85B6BD;
+     color: #fff;
+     text-decoration: none;
+     border: 1px solid #fff;
+     border-radius: 4px;
+     transition: all 0.5s ease;
+}
+
+.menu::-webkit-scrollbar {
+  height: 15px;
+}
+
+.menu::-webkit-scrollbar-track {
+  background: #85B6BD; /* color of the tracking area */
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background-color: #d6eef8; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #85B6BD; /* creates padding around scroll thumb */
+}
+
+input::placeholder{
+    opacity: 70%;
+}
+
+
+input{
+    border: none;
+    border-radius: 10px;
+}
+
+.inputCat{
+      display: relative;
+     min-width: 120px;
+     margin: 0.5rem;
+     padding: 0.4rem 0;
+     text-align: center;
+     background-color: #DD0000;
+     color: #fff;
+     text-decoration: none;
+     border: 1px solid #fff;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: all 0.5s ease;
+}
+
+.inputCat:hover {
+      background-color: #FF6F9F;
+    color: black;
+    border-color: black;
+}
+
+button{
+         	display: relative;
+     min-width: 120px;
+     margin: 0.5rem;
+     padding: 0.4rem 0;
+     text-align: center;
+     background-color: #85B6BD;
+     color: #fff;
+     text-decoration: none;
+     border: 1px solid #fff;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: all 0.5s ease;
+}
+
+button:hover{
+    background-color: #3BB7C9;
+    color: black;
+    border-color: black;
+}
+
+.menu a:hover{
+    background-color: #3BB7C9;
+    color: black;
+    border-color: black;
+}
+
+.bordure {
+	border: 3px solid #000000;
+	background-color: #85B6BD;
+}
+
+.input-file{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+    height: 1px;
+    width: 1px;
+    z-index: -5;
+}
+
+.center {
+  text-align: center;
+}
+
+.indent {
+  text-indent: 40px;
+}
+
+.title{
+	margin-bottom: 0;
+	text-align: center;
+	background-color: #85B6BD;
+	border-bottom: 3px solid #000000;
+}
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.a{
+	text-decoration: none;
+	color: #000000;
+	transition: all 0.5s;
+}
+
+.footer {
+   position:fixed;
+   background: yellow;
+   height:50px;
+   bottom:0;
+   left:0;
+   right:0;
+}
+.content {
+   padding:100px 0 50px 0;
+}
+
+a:hover{
+	color: #3BB7C9;
+}
+
+div img {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+div img:hover{
+    width: 60%;
+    height: 60%;
+}
+
+.table td{
+  text-align: center;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    height: 18%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: #85B6BD;
+}
+
+.th{
+    border: 3px solid #000000;
+}
+
+.case{
+    transition: 0.1s;
+    font-size: 19px;
+    margin: 200px;
+    border-radius: 10px;
+}
+
+.case:hover{
+    background-color: #d6eef8;
+}
